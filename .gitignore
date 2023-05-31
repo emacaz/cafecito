@@ -1,0 +1,19 @@
+# This is a comment
+
+# Ingore all .a files
+*.a
+
+# but tracks this one:
+!lib.a 
+
+# ignore the TODO file
+/TODO
+
+# ignore all files in any directory named "build"
+build/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ingore all .pdf files in the doc/ directory and any of its subdirectoriesj
+doc/**/*.pdf
